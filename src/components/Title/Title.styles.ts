@@ -12,13 +12,16 @@ const rotationAnimation = keyframes`
 `
 
 export const DivTitle = styled.div`
+  display: flex;
+    justify-content: center;
+    align-items: center;
   position: relative;
   height: 100vh;
   min-height: 400px;
-  /* background-image: url(${backgroundImg});
-    background-size: cover; */
-    /* background-attachment: fixed; */
-    /* background-position: top; */
+  background-image: url(${backgroundImg});
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
 `
 
 export const DivOverlay = styled.div`
@@ -31,7 +34,6 @@ export const DivOverlay = styled.div`
 export const DivTitleWrapper = styled.div`
   z-index: 1;
   width: 80vw;
-  margin: auto;
   hr {
     width: 100%;
     border: none;

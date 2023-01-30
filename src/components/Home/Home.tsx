@@ -12,7 +12,7 @@ function Home() {
   return (
     <DivHome>
       <Title />
-      {/* <Introduction /> */}
+      <Introduction />
     </DivHome>
   );
 }

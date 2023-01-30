@@ -10,15 +10,15 @@ import {
 function Title() {
   return (
     <DivTitle>
-      {/* <DivOverlay/> */}
-      {/* <DivTitleWrapper>
+      <DivOverlay/>
+      <DivTitleWrapper>
         <DivTitleImages>
           <img src={logoWithoutO} alt='Tereform' />
           <img src={logo} alt='Tereform logo rotating' />
         </DivTitleImages>
         <hr/>
         <p>Enabling circularity for textiles</p>
-      </DivTitleWrapper> */}
+      </DivTitleWrapper>
     </DivTitle>
   );
 }
