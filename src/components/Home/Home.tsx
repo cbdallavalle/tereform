@@ -1,6 +1,9 @@
 import styled from 'styled-components'
 import Title from '../Title/Title'
-import Introduction from '../Introduction/Introduction'
+import WhatWeDo from '../WhatWeDo/WhatWeDo'
+import Mission from '../Mission/Mission'
+import AboutUs from '../AboutUs/AboutUs'
+import ContactUs from '../ContactUs/ContactUs'
 
 const DivHome = styled.div`
   min-width: 320px;
@@ -11,9 +14,12 @@ const DivHome = styled.div`
 function Home() {
   return (
     <DivHome>
-      <Title />
-      <Introduction />
-    </DivHome>
+        <Title />
+        <Mission />
+        <WhatWeDo />
+        <AboutUs />
+        <ContactUs />
+      </DivHome>
   );
 }
 

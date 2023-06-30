@@ -1,23 +1,32 @@
 import styled, {keyframes} from 'styled-components'
 import backgroundImg from '../../assets/colorado-fall.jpg'
 import {colors, fonts} from '../../constants/cssConstants'
+import {SectionWrapper} from '../PageComponents/Section/Section'
 
 const rotationAnimation = keyframes`
   0% {
-    transform: rotateZ(0deg);
+    transform: rotate(0deg);
+    transform-origin: center;
   }
   100% {
-    transform: rotateZ(359deg);
+    transform: rotate(359deg);
+    transform-origin: center;
   }
+  
 `
 
 export const DivTitle = styled.div`
+  ${SectionWrapper} {
+    padding-bottom: 0;
+  }
+`
+
+export const DivTitleBackground = styled.div`
   display: flex;
     justify-content: center;
     align-items: center;
   position: relative;
-  height: 100vh;
-  min-height: 400px;
+  flex-grow: 1;
   background-image: url(${backgroundImg});
     background-size: cover;
     background-attachment: fixed;
@@ -38,12 +47,12 @@ export const DivTitleWrapper = styled.div`
     width: 100%;
     border: none;
     height: 5px;
-    background-color: ${colors.boneWhite};
+    background-color: ${colors.white};
   }
   p {
     font-family: ${fonts.abel};
     width: 100%;
-    color: ${colors.boneWhite};
+    color: ${colors.white};
     margin: 0;
     font-size: 25px;
     font-weight: bold;
@@ -66,11 +75,11 @@ export const DivTitleImages = styled.div`
     height: 100%;
   }
   img:last-of-type {
-    width: 15%;
-    height: calc(100% + 3px);
+    border-radius: 100%;
+    height: calc(100% + 10px);
     position: absolute;
     top: 0;
-    right: 25.5%;
-    animation: ${rotationAnimation} 20s infinite linear;
+    right: 26%;
+    animation: ${rotationAnimation} 50s infinite linear;
   }
 `

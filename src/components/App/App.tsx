@@ -1,5 +1,4 @@
 import Main from '../Main/Main'
-import {ParallaxProvider} from 'react-scroll-parallax';
 import {
   BrowserRouter as Router,
 } from 'react-router-dom'
@@ -7,11 +6,9 @@ import {
 function App() {
   return (
     <div style={{'boxSizing': 'border-box', width: '100vw'}}>
-    <ParallaxProvider>
       <Router>
-          <Main />
+        <Main />
       </Router>
-    </ParallaxProvider>
     </div>
   )
 }
