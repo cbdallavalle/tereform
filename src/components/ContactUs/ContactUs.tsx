@@ -8,7 +8,7 @@ import LinkedIn from '../../assets/linkedin.png';
 
 export default function AboutUs() {
   return (
-    <DivContactUs>
+  <DivContactUs>
       <Section addPadding={true}>
         <article>
           <SectionHeader headerText='Contact Us' headerColor={colors.white}/>
