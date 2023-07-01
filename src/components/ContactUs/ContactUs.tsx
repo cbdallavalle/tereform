@@ -1,11 +1,10 @@
 import {DivContactUs, DivContactLinks} from './ContactUs.styles';
 import SectionHeader from '../PageComponents/SectionHeader/SectionHeader';
 import Section from '../PageComponents/Section/Section';
-import Typography from '../../baseComponents/Typography/Typography';
 import { colors } from '../../constants/cssConstants';
 import { Link } from 'react-router-dom';
-import Email from '../../assets/email.png'
-import LinkedIn from '../../assets/linkedin.png'
+import Email from '../../assets/email.png';
+import LinkedIn from '../../assets/linkedin.png';
 
 export default function AboutUs() {
   return (
