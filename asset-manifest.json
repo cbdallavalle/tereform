@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/tereform/static/css/main.e6c13ad2.css",
-    "main.js": "/tereform/static/js/main.0510c86c.js",
-    "static/media/colorado-fall.jpg": "/tereform/static/media/colorado-fall.d428a384b7b52dc96715.jpg",
-    "static/media/kevin.png": "/tereform/static/media/kevin.93fad7c8114b838c68f5.png",
-    "static/media/mikhail.png": "/tereform/static/media/mikhail.82c6149464dcf0d8283d.png",
-    "static/media/textiles.jpg": "/tereform/static/media/textiles.29aef6afb9c4b841d685.jpg",
-    "static/media/metals.jpg": "/tereform/static/media/metals.ad54eab461e504c4ee5a.jpg",
-    "static/media/sky.jpg": "/tereform/static/media/sky.7d256538aa5d275ab132.jpg",
-    "static/media/laundry.jpg": "/tereform/static/media/laundry.f11f86eb46f12d3ce9da.jpg",
-    "static/media/logo.png": "/tereform/static/media/logo.67546e100e3120a4a199.png",
-    "static/media/full-logo-without-o.png": "/tereform/static/media/full-logo-without-o.ffe97647a1849c53baea.png",
-    "index.html": "/tereform/index.html",
-    "main.e6c13ad2.css.map": "/tereform/static/css/main.e6c13ad2.css.map",
-    "main.0510c86c.js.map": "/tereform/static/js/main.0510c86c.js.map"
+    "main.css": "/static/css/main.e6c13ad2.css",
+    "main.js": "/static/js/main.96f96dc8.js",
+    "static/media/colorado-fall.jpg": "/static/media/colorado-fall.d428a384b7b52dc96715.jpg",
+    "static/media/kevin.png": "/static/media/kevin.93fad7c8114b838c68f5.png",
+    "static/media/mikhail.png": "/static/media/mikhail.82c6149464dcf0d8283d.png",
+    "static/media/textiles.jpg": "/static/media/textiles.29aef6afb9c4b841d685.jpg",
+    "static/media/metals.jpg": "/static/media/metals.ad54eab461e504c4ee5a.jpg",
+    "static/media/sky.jpg": "/static/media/sky.7d256538aa5d275ab132.jpg",
+    "static/media/laundry.jpg": "/static/media/laundry.f11f86eb46f12d3ce9da.jpg",
+    "static/media/logo.png": "/static/media/logo.67546e100e3120a4a199.png",
+    "static/media/full-logo-without-o.png": "/static/media/full-logo-without-o.ffe97647a1849c53baea.png",
+    "index.html": "/index.html",
+    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
+    "main.96f96dc8.js.map": "/static/js/main.96f96dc8.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.0510c86c.js"
+    "static/js/main.96f96dc8.js"
   ]
 }
