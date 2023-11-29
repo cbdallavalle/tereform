@@ -1,7 +1,6 @@
 import {DivContactUs, DivContactLinks} from './ContactUs.styles';
 import SectionHeader from '../PageComponents/SectionHeader/SectionHeader';
 import Section from '../PageComponents/Section/Section';
-import { colors } from '../../constants/cssConstants';
 import Email from '../../assets/email.png';
 import LinkedIn from '../../assets/linkedin.png';
 
@@ -10,7 +9,7 @@ export default function AboutUs() {
   <DivContactUs>
       <Section addPadding={true}>
         <article>
-          <SectionHeader headerText='Contact Us' headerColor={colors.white}/>
+          <SectionHeader headerText='Contact Us'/>
           <DivContactLinks>
             <a href='https://www.linkedin.com/company/tereform/'>
               Follow us on LinkedIn

@@ -1,7 +1,6 @@
 import metalsImage from '../../assets/metals.jpg'
 import oxygenImage from '../../assets/sky.jpg'
 import wasteTextilesImage from '../../assets/laundry.jpg'
-import textilesImage from '../../assets/textiles.jpg'
 import SectionHeader from '../PageComponents/SectionHeader/SectionHeader';
 import Section from '../PageComponents/Section/Section';
 import useScrollHook from "../../hooks/useScrollHook";
@@ -67,8 +66,6 @@ export default function WhatWeDo() {
           {createIngredientSection(fadeInTwo, 'OXYGEN', oxygenImage)}
           {createIngredientSection(fadeInThree, 'WASTE FABRICS', wasteTextilesImage)}
         </ArticleIngredients>
-      </Section>
-      <Section addPadding={false} noRole={true} background={`url(${textilesImage})`}>
         <Typography tag='h2' addBackground={true}>
           To create fully-recycled textiles while lowering greenhouse gas emissions.
         </Typography>

@@ -9,13 +9,9 @@ export const DivContactUs = styled.div`
       flex-direction: column;
     }
 
-
   ${SectionWrapper} {
     min-height: unset;
     height: fit-content;
-    background-color: ${colors.brightBlue};
-  }
-  @media (max-width: ${screenSizes.medium}) {
   }
 `
 
@@ -35,7 +31,7 @@ export const DivContactLinks = styled.div`
       align-items: center;
       justify-content: center;
   
-    color: ${colors.white};
+    color: ${colors.offBlack};
     text-decoration: none;
     border-radius: 8px;
     font-size: 30px;

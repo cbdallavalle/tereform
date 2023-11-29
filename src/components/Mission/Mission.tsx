@@ -36,7 +36,7 @@ export default function Mission() {
           <Typography tag='h2' addBackground={true}>
             In that time, <span>100 tons of textiles</span> were landfilled or incinerated.
           </Typography>
-          <Typography tag='p'>
+          <Typography tag='p' addBackground={true}>
             <span>A total of 92 million metric tons</span> of textile waste is produced each year.
             <span> Less than 1%</span> of those textiles are recovered.
           </Typography>

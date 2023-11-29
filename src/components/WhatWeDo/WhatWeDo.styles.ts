@@ -13,20 +13,7 @@ export const DivIntroduction = styled.div`
       height: fit-content;
     }
     &:nth-of-type(2) {
-      display: flex;
-        justify-content: center;
-      height: 400px;
-      padding: 0 50px;
-      margin-bottom: 160px;
-      h2 {
-        margin: 0;
-      }
-    }
-    &:nth-of-type(3) {
       background-image: radial-gradient(${colors.seafoamGreen}, ${colors.lightSeafoamGreen});
-      h2 {
-        margin: 0;
-      }
     }
   }
 `
@@ -36,7 +23,6 @@ export const ArticleIngredients = styled.article`
   justify-content: space-between;
   height: 350px;
   margin-top: 60px;
-  margin-bottom: 60px;
   padding: 0px 30px;
   @media (max-width: ${screenSizes.medium}) {
     flex-direction: column;
