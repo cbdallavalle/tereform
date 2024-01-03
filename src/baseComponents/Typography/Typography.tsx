@@ -15,7 +15,6 @@ type TypographyProps = {
 export default function Typography({ color, tag, children, addBackground = false }:TypographyProps) {
   let tagToReturn = <P color={color} addBackground={addBackground}>{children}</P>
   
-  console.log(addBackground)
   switch (tag) {
     case 'h2':
       tagToReturn = <H2 color={color} addBackground={addBackground}>{children}</H2>

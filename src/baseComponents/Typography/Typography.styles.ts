@@ -6,7 +6,7 @@ type TypographyTypes = {
   addBackground?: boolean
 }
 
-const BackgroundStyle = css`
+export const BackgroundStyle = css`
   padding: 30px 20px;
   border-radius: 15px;
   background-color: ${colors.white};

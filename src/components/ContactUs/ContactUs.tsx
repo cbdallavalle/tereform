@@ -7,9 +7,8 @@ import LinkedIn from '../../assets/linkedin.png';
 export default function AboutUs() {
   return (
   <DivContactUs>
-      <Section addPadding={true}>
+      <Section addPadding={false}>
         <article>
-          <SectionHeader headerText='Contact Us'/>
           <DivContactLinks>
             <a href='https://www.linkedin.com/company/tereform/'>
               Follow us on LinkedIn

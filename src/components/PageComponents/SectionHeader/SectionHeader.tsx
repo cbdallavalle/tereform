@@ -8,7 +8,6 @@ type DivSectionHeaderTypes = {
 export const DivSectionHeader = styled.div<DivSectionHeaderTypes>`
   display: flex;
     align-items: center;
-  flex-grow: 1;
   margin: 60px 0 30px 0;
   hr {
     width: 30px;

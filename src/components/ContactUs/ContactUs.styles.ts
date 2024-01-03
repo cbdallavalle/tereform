@@ -12,6 +12,7 @@ export const DivContactUs = styled.div`
   ${SectionWrapper} {
     min-height: unset;
     height: fit-content;
+    background-image: radial-gradient(${colors.brightBlue}, ${colors.lightBlue});
   }
 `
 
@@ -31,7 +32,7 @@ export const DivContactLinks = styled.div`
       align-items: center;
       justify-content: center;
   
-    color: ${colors.offBlack};
+    color: ${colors.white};
     text-decoration: none;
     border-radius: 8px;
     font-size: 30px;
