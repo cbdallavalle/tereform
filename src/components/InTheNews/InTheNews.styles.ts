@@ -18,6 +18,7 @@ export const LiNewsArticle = styled.li`
   max-width: 800px;
   display: flex;
     flex-direction: column;
+  padding: 40px;
   h3 {
     margin: 0;
   }
@@ -27,5 +28,8 @@ export const LiNewsArticle = styled.li`
   a {
     text-align: right;
     color: ${colors.offBlack};
+    &:not(:first-of-type) {
+      margin-top: 8px;
+    }
   }
 `

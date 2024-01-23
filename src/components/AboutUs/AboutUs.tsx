@@ -3,7 +3,7 @@ import SectionHeader from '../PageComponents/SectionHeader/SectionHeader';
 import Section from '../PageComponents/Section/Section';
 import Typography from '../../baseComponents/Typography/Typography';
 import Mikhail from '../../assets/mikhail.png'
-import Kevin from '../../assets/kevin.png'
+import Kevin from '../../assets/kevin.jpg'
 
 export default function AboutUs() {
   return (
