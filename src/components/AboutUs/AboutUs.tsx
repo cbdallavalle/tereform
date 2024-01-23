@@ -48,8 +48,3 @@ export default function AboutUs() {
     </DivAboutUs>
   );
 }
-
-
-
-
-/// test
