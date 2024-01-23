@@ -39,6 +39,15 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+## Deploy
+
+### Constants:
+- The custom domain in Github Pages MUST be www.tereform.com
+  - Changing this domain will trigger a gitaction redeploy, in case a deploy needs to trigger
+- The homepage in package.json must be "https://cbdallavalle.github.io"
+
+From the main branch, do yarn predeploy and then yarn deploy 
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
