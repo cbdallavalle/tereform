@@ -2,7 +2,7 @@ import {DivAboutUs, DivUserProfile} from './AboutUs.styles';
 import SectionHeader from '../PageComponents/SectionHeader/SectionHeader';
 import Section from '../PageComponents/Section/Section';
 import Typography from '../../baseComponents/Typography/Typography';
-import Mikhail from '../../assets/mikhail.png'
+import Mikhail from '../../assets/mikhail.jpg'
 import Kevin from '../../assets/kevin.jpg'
 
 export default function AboutUs() {
