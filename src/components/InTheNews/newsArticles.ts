@@ -11,11 +11,6 @@ export type NewsArticleType = {
 
 export const articles = [
   {
-    title: 'A Pitch for the Future of Energy Day 2023',
-    body: 'Mikhail gives a pitch at the Denver Startup Week session hosted by Halliburton Labs.',
-    urls: [{url: 'https://www.denverstartupweek.org/schedule/8180-future-of-energy-day-west-gate-entrepreneurs-delivering-a-brighter-energy-future'}]
-  },
-  {
     title: 'Tereform awarded the H&M Foundation\'s Global Change Award!',
     body: 'Tereform was honored with the "Nobel Prize in Fashion"! The GCA identifies and supports, both economically and through business development resources, fashion-centric innovations that aim to reshape the industry towards a more sustainable future.',
     urls: [{url: 'https://hmfoundation.com/gca/'}]
@@ -34,18 +29,5 @@ export const articles = [
     title: 'Tereform welcomed into Energy I-Corps 15',
     body: 'Round two of the DOE-sponsored business accelerator will help Tereform refine their business model and network through tailored teaching sessions and stakeholder interviews.',
     urls: [{url: 'https://www.energy.gov/eere/bioenergy/articles/tereform-enabling-circularity-textiles'}]
-  },
-  {
-    title: 'An early pitch: NextCycle Colorado Pitch Competition 2022',
-    body: 'Kevin gives a pitch upon graduation from the Colorado NextCycle business accelerator.',
-    urls: [
-      {
-        url: 'https://www.nrel.gov/news/program/2022/first-cohort-of-innovators-enter-west-gate.html'
-      },
-      {
-        title: 'Click here to watch the pitch',
-        url: 'https://www.youtube.com/watch?v=bTKWNcXDnt4'
-      }
-    ]
   },
 ] as NewsArticleType[]
